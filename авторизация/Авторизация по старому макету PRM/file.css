@@ -1,0 +1,60 @@
+.section{
+	text-align: center ;
+	margin: 300px 800px;
+	display: inline-block;
+
+
+}
+.section h1{
+	color: #5897f4;
+	font-family: Tahoma, sans-serif;
+/*	text-shadow: -3px 3px 10px #e0e1e6;
+*/    text-shadow: -3px 3px 1px white, -3px 5px 1em #bcbabe; /* Параметры тени */
+*/
+}
+.registration{
+	text-align: center;
+ 	border: 1px solid #bcbabe; /* Параметры границы */
+ 	box-shadow:  0px 0px 4px 4px #bcbabe;
+}
+.registration p{
+text-align: center;
+color: #bcbabe
+}
+.text{
+	display: block;
+
+	}
+
+a.green{
+border-radius: 4px;
+
+color: #fff;
+display:block;
+width:50px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding: 8px 16px;
+margin: 20px auto;
+text-decoration: none;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: background-color 0.1s linear;
+-moz-transition: background-color 0.1s linear;
+-o-transition: background-color 0.1s linear;
+transition: background-color 0.1s linear;        
+}
+a.green {
+background-color: #74abfe;
+border: 1px solid rgb( 33, 126, 74 );
+}
+        
+a.green:hover {
+background-color: #0255f6;
+}
+
+.registration input{
+	height: 20px;
+	width: 260px;
+	margin-bottom: 10px;
+}
