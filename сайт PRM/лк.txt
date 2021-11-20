@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Area</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="head">
+		<p class="logo">.inostudio</p>
+
+
+ <div class="menu">
+		
+		<ul class="SPA">
+				<li><a href="#">Сотрудники</a></li>
+				<li><a href="#">Пользователи</a></li>
+				<li><a href="#">Архив</a></li>
+			
+			</ul>
+		
+ </div>
+	</div>
+
+	<div class="container">
+		
+		<div class="information">
+			<ul class="menu_second">
+				<li><a href="#">Данные</a></li>
+				<li><a href="#">Офис</a></li>
+				<li><a href="#">Зарплата</a></li>
+				<li><a href="#">Адаптация</a></li>
+				<li><a href="#">Увольнение</a></li>
+				
+			</ul>
+		</div>
+
+
+
+<!-- Иванов Олег Петрович -->
+
+		<div class="people">
+			<div class="pen">
+				<img src="pen.png" alt="">
+			</div>
+			
+			
+			<div class="photo">
+			<img src="photo1.jpg" alt="photo">
+		</div>
+		<div class="facts">
+			<p class = "name">Иванов Олег Петрович</p>
+			<p>Генеральный директор, Директор по развитию</p>
+			<p>Стаж: 7 лет 3 месяца</p>
+			<div class ="inline_block ">
+				<img src="letter.png" class="icon"alt="letter">
+				<p class="icon1">ivanovOP@gmail.com</p>
+		</div
+ 			<div class ="inline_block">
+ 			<img src="phone (1).png" class="icon" alt="phone">
+			<p class="icon1">+7 (876)345-32-32</p>
+		</div
+		</div>
+		</div>
+		<div class="three_sections"></div>
+
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	background: #F3F3F3;
+font-family: 'Montserrat', sans-serif;	
+}
+
+.head {
+  position: absolute;
+  margin-top: 0;
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.logo {
+  position: absolute;
+  padding-bottom: 20px;
+  margin-top: 5px;
+  width: 329px;
+  height: 54px;
+  left: 80px;
+  top: 33px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.065em;
+  color: #3C3C3B;
+  text-transform: uppercase;
+}
+
+.menu {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+
+.SPA{
+
+	list-style-type: none;
+
+  font-weight: 900;
+  margin: 26px 80px;
+  font-size :18px;
+  color: #3C3C3B;
+}
+.SPA li{
+	display: inline-block;
+}
+.SPA li a {
+	  display: inline-block;
+	color: #3C3C3B;
+	text-decoration: none;
+	padding: 28px;
+	transition: all .07s ease-in-out;
+	display: inline-block;
+
+
+}
+.SPA li a:hover{
+	opacity: 0.8;
+	color:#00A1DF ;
+}
+
+.information{
+	position: relative;
+width: 765px;
+height: 86px;
+left: 80px;
+top: 103px;
+background: #FFFFFF;
+border-radius: 0px 0px 24px 24px;
+
+}
+ .menu_second{
+ 	  
+	position: absolute;
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	margin-top: 0px;
+	font-weight: 900;
+
+}
+.menu_second li a {
+	color: #3C3C3B;
+	text-decoration: none;
+	padding: 28px;
+	transition: all .07s ease-in-out;
+
+
+}
+.menu_second li a:hover{
+	opacity: 0.8;
+	color:#00A1DF ;
+}
+.people{
+width: 860px;
+height: 292px;
+margin-left: 80px;
+margin-top: 246px;
+background: #FFFFFF;
+border-radius: 24px;
+display: inline-block;
+}
+.photo img{
+	position: absolute;
+width: 228px;
+height: 228px;
+margin: 32px 32px;
+border-radius: 12px;
+	}
+	.facts{
+		margin-top: 32px;
+		margin-left: 300px;
+		font-size: 18px;
+	}
+	.inline_block{
+		display: inline-block;
+		margin-right: 40px;
+
+
+	}
+	.name{
+		font-size: 33px;
+		font-weight: 900;
+	}
+	 .icon{
+display: inline-block;
+
+
+	}
+ .icon1{
+		display: inline-block;
+		margin-left: 15px;
+		
+	}
+	.pen{
+		position: absolute;
+
+left: 888px;
+top: 370px;
+
+
+	}
+	.menu_one{
+
+text-align: center;
+	}
